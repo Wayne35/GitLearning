@@ -19,6 +19,7 @@ class ListViewModel: ObservableObject {
 	
 	init() {
 		getItems()
+        print("dada")
 	}
 	
 	func getItems() {
